@@ -144,11 +144,11 @@ Tronc Commun  : ███████████████░░░░░░ 
 ## 🌐 Domaines d'intérêt (M2 ENI)
 
 ```
-🔐 Sécurité Web         ██████████████████░░  avancé
-🤖 IA & Automatisation  █████████████████░░░  avancé
-📊 Gouvernance des data ████████████████░░░░  intermédiaire
-🛡️ Cybersécurité        ████████████████░░░░  intermédiaire
-🌐 Nouvelles menaces    █████████████░░░░░░░  en cours
+🔐 Sécurité Web         ███████████░░░░░░░░░  en cours
+🤖 IA & Automatisation  ████████████░░░░░░░░  en cours
+📊 Gouvernance des data ████████████░░░░░░░░  en cours
+🛡️ Cybersécurité        ████████████░░░░░░░░  en cours
+🌐 Nouvelles menaces    ██████████░░░░░░░░░░  en cours
 ```
 
 > Les projets M2 sont développés sous forme d'applications web, un projet à la fois.
