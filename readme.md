@@ -167,18 +167,6 @@ Tronc Commun  : ███████████████░░░░░░ 
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nilovaa/Nilovaa/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nilovaa/Nilovaa/output/github-contribution-grid-snake.svg" />
-  <img alt="snake eating my commits" src="https://raw.githubusercontent.com/Nilovaa/Nilovaa/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
 <!-- Footer wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
 
