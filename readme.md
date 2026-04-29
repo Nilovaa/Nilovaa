@@ -12,6 +12,7 @@
 
 <!-- Social badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-Nilovaa-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nilovaa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ny%20Lova%20Rakotoniaina-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ny-lova-rakotoniaina-8396b0222/)
 [![42](https://img.shields.io/badge/42-Antananarivo-000000?style=for-the-badge&logo=42&logoColor=white)](https://42.fr)
 ![Madagascar](https://img.shields.io/badge/🇲🇬-Madagascar-red?style=for-the-badge)
 
@@ -30,7 +31,7 @@ typedef struct  s_profile
     char    *school_42;
     char    *university;
     char    *location;
-    int     42_level;
+    int     level_42;
     char    *status;
 }               t_profile;
 
@@ -39,7 +40,7 @@ t_profile   me = {
     .school_42  = "42 Antananarivo — Common Core (36%)",
     .university = "M2 Audit des Systèmes IT — ENI Fianarantsoa",
     .location   = "Antananarivo, Madagascar 🇲🇬",
-    .42_level   = 4,   /* 4.06 / 21 */
+    .level_42   = 4,   /* 4.06 / 21 */
     .status     = "In progress — always building 🚀",
 };
 ```
@@ -164,14 +165,12 @@ Tronc Commun  : ███████████████░░░░░░ 
 
 ---
 
-## 🐍 Le Snake mange mes commits
-
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nilovaa/Nilovaa/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nilovaa/Nilovaa/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Nilovaa/Nilovaa/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="snake eating my commits" src="https://raw.githubusercontent.com/Nilovaa/Nilovaa/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
@@ -188,3 +187,35 @@ Tronc Commun  : ███████████████░░░░░░ 
 ⭐ **Merci de visiter mon profil !** ⭐
 
 </div>
+
+<!--
+=================================================================
+  🐍 ACTIVER LE SNAKE — créer ce fichier dans votre repo :
+  .github/workflows/snake.yml
+=================================================================
+
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+=================================================================
+-->
